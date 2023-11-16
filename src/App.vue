@@ -28,7 +28,7 @@ onMounted(() => {
 
 <template>
   <div :style="{backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.568), transparent, rgba(0, 0, 0, 0.568)), url(${user ? (user.banner ? user.banner : isLoadingBanner) : isLoadingBanner })`}" class="banner w-full h-screen flex flex-col items-center justify-center">
-    <div class="shadow-xl w-3/6">
+    <div class="shadow-xl sm:px-0 px-2 w-full sm:w-3/6">
       <Header :user="user" />
       <Main />
     </div>
