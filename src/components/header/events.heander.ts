@@ -54,3 +54,27 @@ export function handleBoosterMouseOut(): void {
         
     }*/
 }
+
+export function handleDeveloperMouseOver(): void {
+    const badgeDiscord: Element | null = document.querySelector(".developer");
+    badgeDiscord?.classList.remove("hidden");
+    badgeDiscord?.classList.add("flex");
+}
+
+export function handleDeveloperMouseOut(): void {
+    const badgeDiscord: Element | null = document.querySelector(".developer");
+    badgeDiscord?.classList.remove("flex");
+    badgeDiscord?.classList.add("hidden");
+}
+
+export function handleEarlyMouseOver(): void {
+    const badgeDiscord: Element | null = document.querySelector(".early");
+    badgeDiscord?.classList.remove("hidden");
+    badgeDiscord?.classList.add("flex");
+}
+
+export function handleEarlyMouseOut(): void {
+    const badgeDiscord: Element | null = document.querySelector(".early");
+    badgeDiscord?.classList.remove("flex");
+    badgeDiscord?.classList.add("hidden");
+}
