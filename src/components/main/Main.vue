@@ -15,7 +15,7 @@ const emojiAboutMe: string = "https://cdn.discordapp.com/emojis/1173030335710232
                         NOT GOD PLEASED EVERYONE🐒<br/>
                         <span class="flex items-center">
                             <img class="w-6 h-6 mr-1" :src="emojiAboutMe" />
-                            <p class="text-[#6e6f73] text-sm">forever ama a froog</p>
+                            <p class="text-[#6e6f73] text-sm">forever ama a aikkizinha</p>
                         </span>
                     </p>
                     <p class="text-md mt-8 font-bold text-neutral-400">DISCORD MEMBER SINCE</p>
