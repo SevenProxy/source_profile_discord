@@ -14,7 +14,6 @@ const emojiAboutMe: string = "https://cdn.discordapp.com/emojis/1173030335710232
                         <strong class="text-white text-xl">></strong><br/>
                         NOT GOD PLEASED EVERYONE🐒<br/>
                         <span class="flex items-center">
-                            
                             <a href="https://discord.gg/dMjYUpBKsA" class="text-sm">https://discord.gg/dMjYUpBKsA</a>
                         </span>
                     </p>
