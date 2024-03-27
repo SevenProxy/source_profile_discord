@@ -29,7 +29,7 @@ const emojiAboutMe: string = "https://cdn.discordapp.com/emojis/1173030335710232
                             </div>
                         </div>
                         <div class="relative ml-8">
-                            <a href="https://www.instagram.com/cassieshutup" rel="noreferrer noopener" target="_blank" role="button" tabindex="0">
+                            <a href="https://github.com/SevenProxy" rel="noreferrer noopener" target="_blank" role="button" tabindex="0">
                                 <svg aria-hidden="true" role="img" width="24" height="24" class="link-svg text-[#6e6f73]" viewBox="0 0 24 24">
                                     <polygon fill="currentColor" fill-rule="nonzero" points="13 20 11 20 11 8 5.5 13.5 4.08 12.08 12 4.16 19.92 12.08 18.5 13.5 13 8"></polygon>
                                 </svg>
