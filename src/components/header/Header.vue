@@ -34,7 +34,7 @@ const isLoadingAvatarUser: string = "https://external-content.duckduckgo.com/iu/
   <div class="w-full proxy">
     <div class="rounded-tl-md rounded-tr-md flex items-start py-8 px-4 justify-start w-full bg-[#202225]">
         <div class="w-24 h-24 mr-4 relative">
-            <img v-if="user" class="rounded-full w-full cursor-pointer h-full" :src="user.avatar" />
+            <img v-if="user" class="rounded-full w-full cursor-pointer h-full" :src="`https://cdn.discordapp.com/avatars/${user.id}/`user.avatar" />
             <img v-else :src="isLoadingAvatarUser" class="rounded-full w-full cursor-pointer h-full" />
             <a v-if="user" :href="user.avatar" class="absolute rounded-full top-0 left-0 w-full h-full"></a>
         </div>
