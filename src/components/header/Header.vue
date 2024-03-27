@@ -58,14 +58,6 @@ const isLoadingAvatarUser: string = "https://external-content.duckduckgo.com/iu/
                     <div id="badge" class="booster hidden font-lg absolute px-2 py-2 rounded-md bg-neutral-700 text-white">Nitro Booster</div>
                     <img @mouseout="handleBoosterMouseOut" @mouseover="handleBoosterMouseOver" class="w-6 h-6 mr-2 cursor-pointer" :src="iconBooster" />
                 </div>
-                <div class="relative flex items-center justify-center">
-                    <div id="badge" class="developer hidden font-lg absolute px-2 py-2 rounded-md bg-neutral-700 text-white">Developer</div>
-                    <img @mouseout="handleDeveloperMouseOut" @mouseover="handleDeveloperMouseOver" class="w-6 h-6 mr-2 cursor-pointer" :src="iconDeveloper" />
-                </div>
-                <div class="relative flex items-center justify-center">
-                    <div id="badge" class="early hidden font-lg absolute px-2 py-2 rounded-md bg-neutral-700 text-white">Developer</div>
-                    <img @mouseout="handleEarlyMouseOut" @mouseover="handleEarlyMouseOver" class="w-6 h-6 mr-2 cursor-pointer" :src="iconEarlySupporter" />
-                </div>
             </div>
         </div>
     </div>
