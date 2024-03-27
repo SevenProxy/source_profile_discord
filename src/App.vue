@@ -14,11 +14,10 @@ const isLoadingBanner: string = "https://external-content.duckduckgo.com/iu/?u=h
 
 async function requestAPIUser(): Promise<void> {
   
-
   const responseAPI: AxiosResponse<any> = await axios.get(`https://discord.com/api/v9/users/1212113093828804658`, {
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bot ${x}`,
+      "Authorization": `Bot ${x}`
     },
   });
 
