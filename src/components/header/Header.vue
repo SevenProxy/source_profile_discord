@@ -18,7 +18,7 @@ interface User {
     username: string,
     banner?: string
 }
-defineProps<{ user: User }>()
+defineProps<{ user: any }>()
 
 const iconHypeBrilliance: string = "https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png";
 const iconNitro: string = "https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png";
