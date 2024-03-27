@@ -34,16 +34,16 @@ const isLoadingAvatarUser: string = "https://external-content.duckduckgo.com/iu/
   <div class="w-full proxy">
     <div class="rounded-tl-md rounded-tr-md flex items-start py-8 px-4 justify-start w-full bg-[#202225]">
         <div class="w-24 h-24 mr-4 relative">
-            <img v-if="user" class="rounded-full w-full cursor-pointer h-full" :src="`https://cdn.discordapp.com/avatars/${user.id}/`+user.avatar" />
+            <img v-if="user" class="rounded-full w-full cursor-pointer h-full" src="https://cdn.discordapp.com/avatars/1193791291125940309/0e3a91d4474838d7ea29b3bc7dc51d64.png?size=1024"/>
             <img v-else :src="isLoadingAvatarUser" class="rounded-full w-full cursor-pointer h-full" />
             <a v-if="user" :href="user.avatar" class="absolute rounded-full top-0 left-0 w-full h-full"></a>
         </div>
         <div class="flex flex-col items-left mt-4">
             <div class="flex flex-col">
                 <p v-if="!user" class="font-md text-3xl">Carregando...</p>
-                <p v-else class="font-md text-3xl">{{user.username}}</p>
+                <p v-else class="font-md text-3xl">Seven Proxy</p>
                 <p v-if="!user" class="text-gray-500 text-lg">Carregando...</p>
-                <p v-else class="text-gray-500 text-lg">{{ user.username }}</p>
+                <p v-else class="text-gray-500 text-lg">7proxy</p>
             </div>
             <div class="flex items-center w-fit mt-4 px-1 py-1 rounded-md bg-[#131313]">
                 <div class="relative flex items-center justify-center">
