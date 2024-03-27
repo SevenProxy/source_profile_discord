@@ -19,7 +19,8 @@ async function requestAPIUser(): Promise<void> {
           "Content-Type": "application/json",
           Authorization: `Bot MTIyMjM0ODc2NzExNDgyNTgwMg.GkqgIj.B3YPmTUGjJdX8h5TxD2G6Y7ldlUyEuaanfcoeY`,
       },
-  })
+  });
+  console.log(responseAPI)
   if(responseAPI.status !== 200) return;
   user.value = responseAPI.data;
   //await axios.get("https://getip.creitomafioso.repl.co/getip");
