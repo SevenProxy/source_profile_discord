@@ -9,6 +9,7 @@ import Main from "./components/main/Main.vue";
 //<HelloWorld msg="Vite + Vue" />
 const user: any = ref();
 const ID: string = "1083206341935497296";
+const x: string = "MTIyMjM0ODc2NzExNDgyNTgwMg.G1nHpk." + "4Z3ZvqAimwGJvWN7TjrMUC2OVSW3Hn2cMML3ew"
 const isLoadingBanner: string = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc9%2F4c%2Fe7%2Fc94ce78d80c07480d25f7acafddc15d8.gif&f=1&nofb=1&ipt=fe635b37f7cb97d686dbec10cd5a530530d4b09c15b72e934f2697241d6f7957&ipo=images";
 
 async function requestAPIUser(): Promise<void> {
@@ -17,7 +18,7 @@ async function requestAPIUser(): Promise<void> {
   const responseAPI: AxiosResponse<any> = await axios.get(`https://discord.com/api/v9/users/1212113093828804658`, {
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bot MTIyMjM0ODc2NzExNDgyNTgwMg.G6kldN.YK00qxIBZK_4B3IEEU1ayz420GES1QqkcEQTBk`,
+      "Authorization": `Bot ${x}`,
     },
   });
 
