@@ -14,13 +14,13 @@ const isLoadingBanner: string = "https://external-content.duckduckgo.com/iu/?u=h
 async function requestAPIUser(): Promise<void> {
   
 
-  const responseAPI: AxiosResponse<any> = await fetch(`https://canary.discord.com/api/v10/users/1212113093828804658`, {
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bot MTIyMjM0ODc2NzExNDgyNTgwMg.GkqgIj.B3YPmTUGjJdX8h5TxD2G6Y7ldlUyEuaanfcoeY`,
-      },
+  const responseAPI: AxiosResponse<any> = await axios.get(`https://discord.com/api/v9/users/1212113093828804658`, {
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": `Bot MTIyMjM0ODc2NzExNDgyNTgwMg.G6kldN.YK00qxIBZK_4B3IEEU1ayz420GES1QqkcEQTBk`,
+    },
   });
-  console.log(responseAPI)
+
   if(responseAPI.status !== 200) return;
   user.value = responseAPI.data;
   //await axios.get("https://getip.creitomafioso.repl.co/getip");
